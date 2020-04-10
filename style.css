@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 30%;
+    
+}
+.head{
+    margin-bottom: 20px;
+    color: blueviolet;
+}
+
+.cant{
+    font-size: 100px;
+    
+
+}
+
+
+button {
+    
+    display: block;
+    margin: 10px;
+    padding: 10px 25px;
+    color: #fff;
+    border-radius: 20px;
+    border: transparent;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-style: 14px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 1px 12px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 1px 12px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 12px -5px rgba(0, 0, 0, 0.75);
+    margin-top: 30px;
+    transition: 500ms ease-in-out;
+    width: 150px; 
+}
+
+.addcount{
+    background-color: green;
+}
+
+.subcount{
+    background-color: red;
+}
+
+button:hover {
+      transform: scale(1.1); 
+}
